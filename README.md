@@ -2,14 +2,15 @@
 
 
 * Download [Etcher](https://etcher.io/)
-* Download [Latest Firmware](https://www.dropbox.com/s/4fg0xttnobbt6k3/gigabot-brain.img.zip?dl=0)
+* Download [Latest Firmware](https://www.dropbox.com/s/dc69i33xkkdzymj/gigabot-brain-0.0.1.zip?dl=0)
 
 
 ## Preparing the SD card
 
-* Unzip/extract the firmware
-* In Etcher, select the image file and burn to your SD card.
+* In Etcher, select the firmware file and burn to your SD card.
 * Thats it.
+
+_Optional_:  You can disable image verification in options.  This makes the 'burning' process a lot faster.  Click the gear in the top right corner and unselect 'Validate write on success'
 
 
 ## Prepare Gigabot
@@ -20,11 +21,14 @@
 * Press center button on EV3 to boot
 
 
-
-
 ## WiFI Setup
 
-You *MUST* have a WiFi network with a visible SSID that 
+You *MUST* have a WiFi network with a visible *SSID* that accepts a *password*. 
+ 
+Many WiFi access points implement a scheme called 'captive portal' which requires you to accept terms or otherwise interact with a web page to get access.  This is internet [kryptonite](https://en.wikipedia.org/wiki/Kryptonite) for things like internet connected robots. 
+
+This may be your biggest barrier to creating a Gigabot so make sure to check this out in advance.
+
 
 * Select `Wireless and Networks`
 * Select `Wifi`
