@@ -2,7 +2,7 @@
 
 
 * Download [Etcher](https://etcher.io/)
-* Download [Latest Firmware](https://www.dropbox.com/s/dc69i33xkkdzymj/gigabot-brain-0.0.1.zip?dl=0)
+* Download [Latest Firmware](https://www.dropbox.com/s/t6bpfwwuzqnbiwu/gigabot-brain-0.0.2.zip?dl=0)
 
 
 ## Preparing the SD card
